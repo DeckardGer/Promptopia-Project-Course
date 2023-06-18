@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-import PromptCard from "./PrompCard";
+import PromptCard from "./PromptCard";
 import { fetchData } from "next-auth/client/_utils";
 
 const PromptCardList = ({ data, handleTagClick }) => {
